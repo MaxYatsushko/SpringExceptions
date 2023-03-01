@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringExceptionsApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SpringExceptionsApplication.class, args);
 	}
 

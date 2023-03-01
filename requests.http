@@ -1,0 +1,16 @@
+GET http://localhost:8080/user
+###
+GET http://localhost:8080/user/input?login=sdadsasda&password=14&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd123456789012345678&password=14&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd1234567890123456789&password=14&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd123456789012345678&password=146&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd123456789012345678&password=14!&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd123456789012345678&password=12345678901234567890&confirmPassword=14
+###
+GET http://localhost:8080/user/input?login=sd123456789012345678&password=1234567890123456789&confirmPassword=1234567890123456789
+
